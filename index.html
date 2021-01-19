@@ -4,9 +4,22 @@
     </head>
     <body>
         <h1>Snake Game</h1>
-        <button id="start">Start/Restart</button>
-        <h2>Score <span id="score"></span></h2>
-        <div class="grid"></div>
+        <div class="container"></div>
+            <div class="container-left">
+                <button id="start">Start/Restart</button>
+                <h2>Score: <span id="score"></span></h2>
+                <div class="grid"></div>
+            </div>
+            <div class="container-right">
+                <h2> Score History: </h2>
+                <table id="historical-scores">
+                    <tr>
+                      <th>Date</th>
+                      <th>Score</th>
+                    </tr>
+                  </table>
+            </div>
+        </div>
         <script src="index.js"></script>
     </body>
 </html>

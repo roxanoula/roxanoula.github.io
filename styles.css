@@ -1,13 +1,55 @@
-html, body {
-    margin: 10;
-    padding: 10;
+body {
+    margin: 0 auto;
+    padding: 0;
 }
 
+.container {
+    position:relative;
+    margin: 0 auto;
+}
+
+.container-left, .container-right {
+    width: 400px;
+    height: 500px;
+}
+
+.container-left {
+    margin: 10px;  
+    padding: 20px 50px;
+    border:solid 10px darkmagenta;
+    display: inline-block;
+}
+
+.container-right {
+    margin: 10px;
+    padding: 20px 50px;
+    border: solid 10px green;
+    display: inline-block;
+    position: absolute;
+}
+
+table, td, th {
+    border: 1px solid black;
+  }
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+h1 {
+    margin: 10px;
+    width: 1020px;
+    padding: 20px;
+    background: yellowgreen;
+    color: black;
+    text-align: center;
+}
 .grid {
     display: flex;
     flex-wrap: wrap;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     border: solid 2px black;
 }
 
